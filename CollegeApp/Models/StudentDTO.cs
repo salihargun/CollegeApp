@@ -19,7 +19,7 @@ public class StudentDTO
 
     [Required] 
     public string Address { get; set; }
-
+/*
     [Compare(nameof(Password))]
     public string Password { get; set; }
     
@@ -27,7 +27,9 @@ public class StudentDTO
     public int Age { get; set; }
     
     [DateCheck]
-    public DateTime AdmissionDate { get; set; }
-
-
+    public DateTime AdmissionDate { get; set; }      
+    
+    */
+        
+    
 }
